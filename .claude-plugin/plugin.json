@@ -1,0 +1,8 @@
+{
+  "name": "connector-sync",
+  "version": "0.1.0",
+  "description": "Unattended daily syncs of claude.ai connectors (Granola, Gmail, Google Calendar) into markdown, with catch-up after failures and clear health checks.",
+  "author": { "name": "Ruben Hallali", "url": "https://x.com/RubenHallali" },
+  "license": "MIT",
+  "keywords": ["claude-code", "mcp", "connectors", "granola", "gmail", "calendar", "launchd", "markdown", "second-brain"]
+}

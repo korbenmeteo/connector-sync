@@ -1,0 +1,5 @@
+# Personal data: never commit
+connector-sync.env
+.connector-sync/
+raw/
+.DS_Store

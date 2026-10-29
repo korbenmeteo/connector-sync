@@ -1,0 +1,14 @@
+{
+  "name": "connector-sync",
+  "owner": {
+    "name": "Ruben Hallali"
+  },
+  "plugins": [
+    {
+      "name": "connector-sync",
+      "source": "./",
+      "description": "Unattended daily syncs of claude.ai connectors (Granola, Gmail, Google Calendar) into markdown, with catch-up after failures and clear health checks."
+    }
+  ],
+  "description": "Daily, unattended syncs of claude.ai connectors into a markdown vault."
+}

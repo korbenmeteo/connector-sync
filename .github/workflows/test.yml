@@ -1,0 +1,16 @@
+name: test
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  sync:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]  # GNU and BSD date
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: bash -n skills/connector-sync/scripts/install-launchd.sh
+      - run: bash examples/run-example.sh
